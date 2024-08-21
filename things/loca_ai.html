@@ -1,0 +1,11 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Balkan Web"},
+    url: "https://tv.balkanweb.com/news24/livestream/playlist.m3u8"
+  },
+  {
+    metaData:{title: "Klass FM 92.9"},
+    url: "https://klassfm929.radioca.st/listen.pls?n=094d73cbf1ccaca4f4cb"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

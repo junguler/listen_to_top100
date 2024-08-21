@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "sdr niedersachsen"},
+    url: "http://sdr-niedersachsen.stream.laut.fm/sdr-niedersachsen"
+  },
+  {
+    metaData:{title: "kgs12radio"},
+    url: "http://kgs12radio.stream.laut.fm/kgs12radio"
+  },
+  {
+    metaData:{title: "dsm"},
+    url: "http://dsm.stream.laut.fm/dsm"
+  },
+  {
+    metaData:{title: "kmbsradio"},
+    url: "http://kmbsradio.stream.laut.fm/kmbsradio"
+  },
+  {
+    metaData:{title: "spalterradio"},
+    url: "http://spalterradio.stream.laut.fm/spalterradio"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

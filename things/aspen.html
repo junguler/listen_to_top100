@@ -1,0 +1,31 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Radio Colorado Public Classical"},
+    url: "http://stream2.cprnetwork.org:8000/cpr2_aac"
+  },
+  {
+    metaData:{title: "Radio Colorado Public News"},
+    url: "http://stream2.cprnetwork.org:8000/cpr1_lo"
+  },
+  {
+    metaData:{title: "Radio KGHT Hot"},
+    url: "http://ice7.securenetsystems.net/KGHT"
+  },
+  {
+    metaData:{title: "Radio KMTS"},
+    url: "http://ice7.securenetsystems.net/KMTSFM"
+  },
+  {
+    metaData:{title: "Radio Krystal 93"},
+    url: "http://ice8.securenetsystems.net/KYSL"
+  },
+  {
+    metaData:{title: "Radio KTND Thunder"},
+    url: "http://ice7.securenetsystems.net/KTND"
+  },
+  {
+    metaData:{title: "Radio KVNF"},
+    url: "http://peridot.streamguys.com:7140/live"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

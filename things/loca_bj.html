@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Capp FM"},
+    url: "http://cappfm.ice.infomaniak.ch/cappfm-96.mp3?n=45c056ab111ce554dc13"
+  },
+  {
+    metaData:{title: "Radio Frissons 95.2 Cotonou"},
+    url: "http://frissonsradio.ice.infomaniak.ch/frissonsradio-128.mp3?n=4035cc20d4e81c8c5d6f"
+  },
+  {
+    metaData:{title: "Radio Plan�te 95.7 Cotonou"},
+    url: "https://listen.radioking.com/radio/111193/stream/150295?n=7efe66770b4682ca78f0"
+  },
+  {
+    metaData:{title: "Radio Tokpa"},
+    url: "https://www.surfmusic.de/m3u/radio-tokpa-104-3-fm,16625.m3u?n=ad706fd9e2f1be058cca"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

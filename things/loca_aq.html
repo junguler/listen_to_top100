@@ -1,0 +1,15 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "A Net Station"},
+    url: "https://anetstation.com/MP3/ANETSTATIONDOTCOM.m3u?n=4a6c3a34bf6b4b6409dd"
+  },
+  {
+    metaData:{title: "Doujindance"},
+    url: "http://radio.funkot.net:8010/playlist?n=0258f4811dad9666ed8b"
+  },
+  {
+    metaData:{title: "kbs"},
+    url: "http://serpent0.duckdns.org:8088/kbs1fm.pls?n=7f4f78cdb45e73a40fd2"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

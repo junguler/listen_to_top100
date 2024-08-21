@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "buchradio"},
+    url: "http://buchradio.stream.laut.fm/buchradio"
+  },
+  {
+    metaData:{title: "literatur musik"},
+    url: "http://literatur-musik.stream.laut.fm/literatur-musik"
+  },
+  {
+    metaData:{title: "literaturfm"},
+    url: "http://literaturfm.stream.laut.fm/literaturfm"
+  },
+  {
+    metaData:{title: "radio pusteblume"},
+    url: "http://radio-pusteblume.stream.laut.fm/radio-pusteblume"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

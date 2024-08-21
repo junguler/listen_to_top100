@@ -1,0 +1,27 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Beach House Ibiza"},
+    url: "https://ec5.yesstreaming.net:2115/stream"
+  },
+  {
+    metaData:{title: "Epic Lounge - DINNER LOUNGE"},
+    url: "https://stream.epic-lounge.com/dinner-lounge"
+  },
+  {
+    metaData:{title: "Epic Lounge - SUMMER LOUNGE"},
+    url: "https://stream.epic-lounge.com/summer-lounge"
+  },
+  {
+    metaData:{title: "Metro Radio"},
+    url: "https://edge-bauerall-01-gos2.sharp-stream.com/metro.mp3"
+  },
+  {
+    metaData:{title: "Status Quo Rock Radio"},
+    url: "http://www.sqrr.de/listen.pls"
+  },
+  {
+    metaData:{title: "TruckStopRadio"},
+    url: "https://oreo.truckstopradio.co.uk/radio/8000/radio.mp3"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

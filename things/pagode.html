@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Geração Samba e Pagode"},
+    url: "https://servidor.geracaoradios.com/radio/8010/stream"
+  },
+  {
+    metaData:{title: "Web Rádio ZYK - i"},
+    url: "http://179.127.28.236:13838/autodj.m3u"
+  },
+  {
+    metaData:{title: "Hunter.FM - Hits Brasil"},
+    url: "http://live.hunter.fm/hitsbrasil_high"
+  },
+  {
+    metaData:{title: "SpotBrazil Radio"},
+    url: "http://s3.radio.co/s55c5b7967/listen"
+  },
+  {
+    metaData:{title: "Rádio Metropolitana 99.1 FM"},
+    url: "http://cloud.cdnseguro.com:8010/alto/"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

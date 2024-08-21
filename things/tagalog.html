@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Love Radio"},
+    url: "https://s3.radio.co/sd43d6cc6d/listen"
+  },
+  {
+    metaData:{title: "Yes! The Best Manila"},
+    url: "https://s2.radio.co/sa85100da7/listen"
+  },
+  {
+    metaData:{title: "CyberPinoy Radio"},
+    url: "https://securestreams.autopo.st:1215/stream"
+  },
+  {
+    metaData:{title: "Mabuhay Music Radio"},
+    url: "http://nap.casthost.net:8031/stream"
+  },
+  {
+    metaData:{title: "JAKXFM"},
+    url: "http://62.138.18.102:8150/stream"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

@@ -1,0 +1,31 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Quiet Village Radio - Tiki Music 24/7"},
+    url: "http://184.154.43.106:8380/stream"
+  },
+  {
+    metaData:{title: "Global Chillout by WorldFusionRadio.com"},
+    url: "http://51.255.235.165:5160/stream"
+  },
+  {
+    metaData:{title: "World Revolutions by WorldFusionRadio.com"},
+    url: "http://51.255.235.165:5366/stream"
+  },
+  {
+    metaData:{title: "exotica"},
+    url: "http://exotica.stream.laut.fm/exotica"
+  },
+  {
+    metaData:{title: "musik kurier"},
+    url: "http://musik-kurier.stream.laut.fm/musik-kurier"
+  },
+  {
+    metaData:{title: "latriperie"},
+    url: "http://latriperie.stream.laut.fm/latriperie"
+  },
+  {
+    metaData:{title: "schattenradio"},
+    url: "http://schattenradio.stream.laut.fm/schattenradio"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

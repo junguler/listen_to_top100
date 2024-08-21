@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Calm Radio Mozart"},
+    url: "https://streams.calmradio.com:7328/stream"
+  },
+  {
+    metaData:{title: "Calm Radio Light Mozart"},
+    url: "https://streams.calmradio.com:31160/stream"
+  },
+  {
+    metaData:{title: "Classical Radio - Mozart"},
+    url: "https://drive.uber.radio/uber/crmozart/icecast.audio"
+  },
+  {
+    metaData:{title: "kMozart radio"},
+    url: "https://ec3.yesstreaming.net:3625/stream"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

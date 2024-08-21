@@ -1,0 +1,15 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "germany radio4you"},
+    url: "http://germany-radio4you.stream.laut.fm/germany-radio4you"
+  },
+  {
+    metaData:{title: "happyhits"},
+    url: "http://happyhits.stream.laut.fm/happyhits"
+  },
+  {
+    metaData:{title: "radio goldberg"},
+    url: "http://radio-goldberg.stream.laut.fm/radio-goldberg"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

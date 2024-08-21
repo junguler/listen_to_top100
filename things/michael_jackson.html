@@ -1,0 +1,15 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Web Rádio Michael Jackson"},
+    url: "https://hts02.kshost.com.br:8062/live"
+  },
+  {
+    metaData:{title: "Radio RMF - Michael Jackson"},
+    url: "https://rs8-krk2-cyfronet.rmfstream.pl/MICHALEJACKSON"
+  },
+  {
+    metaData:{title: "Vagalume.FM - O Melhor de Michael Jackson"},
+    url: "https://stream.vagalume.fm/hls/1498504131678502/aac.m3u8"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

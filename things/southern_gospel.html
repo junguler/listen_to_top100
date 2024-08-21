@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "CIOT Lighthouse FM 104.1"},
+    url: "http://74.3.144.19:8000"
+  },
+  {
+    metaData:{title: "Inspired Internet Radio VSC GOSPEL NETWORK"},
+    url: "http://62.210.24.124:8830/stream"
+  },
+  {
+    metaData:{title: "Maritime Gospel radio"},
+    url: "http://108.62.0.141:7232/stream"
+  },
+  {
+    metaData:{title: "WTGF"},
+    url: "http://192.241.185.108:8024"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

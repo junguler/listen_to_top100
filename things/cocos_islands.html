@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Mercy and Truth Radio"},
+    url: "http://192.241.185.108:8058/stream"
+  },
+  {
+    metaData:{title: "Radio TunisiaMed Listen live"},
+    url: "https://azuracast.conceptradio.fr/radio/8000/radio.mp3"
+  },
+  {
+    metaData:{title: "Radio Am�rica Latina Listen live"},
+    url: "https://streaming.radiostreamlive.com/radioamericalatina_devices"
+  },
+  {
+    metaData:{title: "RauteMusik - Solo Piano Listen live"},
+    url: "https://rautemusik-de-hz-fal-stream15.radiohost.de/solopiano"
+  },
+  {
+    metaData:{title: "RauteMusik - Deutschrap Classic Listen live"},
+    url: "https://rautemusik-de-hz-fal-stream12.radiohost.de/rm-deutschrap-classic_mp3-192?ref=rm5beta"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

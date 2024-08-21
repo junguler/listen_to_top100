@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "caseradio rap"},
+    url: "http://caseradio-rap.stream.laut.fm/caseradio-rap"
+  },
+  {
+    metaData:{title: "derrapsender"},
+    url: "http://derrapsender.stream.laut.fm/derrapsender"
+  },
+  {
+    metaData:{title: "raveradio"},
+    url: "http://raveradio.stream.laut.fm/raveradio"
+  },
+  {
+    metaData:{title: "projektsalenstein"},
+    url: "http://projektsalenstein.stream.laut.fm/projektsalenstein"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "electro swing"},
+    url: "http://electro-swing.stream.laut.fm/electro-swing"
+  },
+  {
+    metaData:{title: "lippe sound house"},
+    url: "http://lippe-sound-house.stream.laut.fm/lippe-sound-house"
+  },
+  {
+    metaData:{title: "hedkandiclub"},
+    url: "http://hedkandiclub.stream.laut.fm/hedkandiclub"
+  },
+  {
+    metaData:{title: "grooveradio"},
+    url: "http://grooveradio.stream.laut.fm/grooveradio"
+  },
+  {
+    metaData:{title: "funkytown bibahouse"},
+    url: "http://funkytown-bibahouse.stream.laut.fm/funkytown-bibahouse"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

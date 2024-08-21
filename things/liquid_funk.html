@@ -1,0 +1,11 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Different Drumz DnB Radio"},
+    url: "http://andromeda.shoutca.st:8031/stream/"
+  },
+  {
+    metaData:{title: "Радио NFMOSCOW"},
+    url: "http://radio.nfmoscow.ru:8000/192/"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

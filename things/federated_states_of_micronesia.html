@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "DSC-Webradio Listen live"},
+    url: "https://server4.streamserver24.com:61422/stream.mp3"
+  },
+  {
+    metaData:{title: "Rádio Nativa 94.9 FM Listen live"},
+    url: "https://servidor28-1.brlogic.com:8264/live"
+  },
+  {
+    metaData:{title: "Radio Soy Listen live"},
+    url: "https://cloudstream2032.conectarhosting.com/9500/server"
+  },
+  {
+    metaData:{title: "Bible Baptist Radio Chuuk"},
+    url: "https://streaming.radio.co/s25a6afba9/listen"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

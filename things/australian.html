@@ -1,0 +1,15 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "3RPH 1179 AM"},
+    url: "http://23203.live.streamtheworld.com/3RPHAAC_SC"
+  },
+  {
+    metaData:{title: "Valley FM 87.6"},
+    url: "http://stream.valleyfm.com.au:8000/valleyfm128.mp3"
+  },
+  {
+    metaData:{title: "SBS News"},
+    url: "https://www.sbs.com.au/web/audio/radiobulletin.mp3"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

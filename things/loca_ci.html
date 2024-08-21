@@ -1,0 +1,15 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Radio Merveille Togo"},
+    url: "https://c3.radioboss.fm/playlist/234/stream.m3u"
+  },
+  {
+    metaData:{title: "Radio Jam"},
+    url: "https://listen.radioking.com/radio/61201/stream/98566"
+  },
+  {
+    metaData:{title: "Radio Maria Ivory Coast"},
+    url: "https://dreamsiteradioplayer.it/wf/wfivorycoast/?pl=vlc&c=Radio%20Maria%20C%C3%B4te%20D%27Ivoire?n=c695234d08ea69e18c13"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

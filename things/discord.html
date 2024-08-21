@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "zockzoneradio"},
+    url: "http://zockzoneradio.stream.laut.fm/zockzoneradio"
+  },
+  {
+    metaData:{title: "tynopia"},
+    url: "http://tynopia.stream.laut.fm/tynopia"
+  },
+  {
+    metaData:{title: "trackfm"},
+    url: "http://trackfm.stream.laut.fm/trackfm"
+  },
+  {
+    metaData:{title: "bravefmmashup"},
+    url: "http://bravefmmashup.stream.laut.fm/bravefmmashup"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

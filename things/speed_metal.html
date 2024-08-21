@@ -1,0 +1,31 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "thrashking"},
+    url: "http://thrashking.stream.laut.fm/thrashking"
+  },
+  {
+    metaData:{title: "metal fm com"},
+    url: "http://metal-fm-com.stream.laut.fm/metal-fm-com"
+  },
+  {
+    metaData:{title: "steelfactory"},
+    url: "http://steelfactory.stream.laut.fm/steelfactory"
+  },
+  {
+    metaData:{title: "metalhead"},
+    url: "http://metalhead.stream.laut.fm/metalhead"
+  },
+  {
+    metaData:{title: "moshhead blackmetal"},
+    url: "http://moshhead-blackmetal.stream.laut.fm/moshhead-blackmetal"
+  },
+  {
+    metaData:{title: "sprengiesworldfm"},
+    url: "http://sprengiesworldfm.stream.laut.fm/sprengiesworldfm"
+  },
+  {
+    metaData:{title: "vault of darkness"},
+    url: "http://vault_of_darkness.stream.laut.fm/vault_of_darkness"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

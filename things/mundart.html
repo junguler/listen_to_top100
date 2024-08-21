@@ -1,0 +1,35 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "mundartradio"},
+    url: "http://mundartradio.stream.laut.fm/mundartradio"
+  },
+  {
+    metaData:{title: "heimatradio erzgebirge"},
+    url: "http://heimatradio-erzgebirge.stream.laut.fm/heimatradio-erzgebirge"
+  },
+  {
+    metaData:{title: "erzi"},
+    url: "http://erzi.stream.laut.fm/erzi"
+  },
+  {
+    metaData:{title: "schwabenhits"},
+    url: "http://schwabenhits.stream.laut.fm/schwabenhits"
+  },
+  {
+    metaData:{title: "wunschbox radio"},
+    url: "http://wunschbox-radio.stream.laut.fm/wunschbox-radio"
+  },
+  {
+    metaData:{title: "fraenkisch spoken"},
+    url: "http://fraenkisch-spoken.stream.laut.fm/fraenkisch-spoken"
+  },
+  {
+    metaData:{title: "erzgebirgs weihnacht"},
+    url: "http://erzgebirgs-weihnacht.stream.laut.fm/erzgebirgs-weihnacht"
+  },
+  {
+    metaData:{title: "donauwelle"},
+    url: "http://donauwelle.stream.laut.fm/donauwelle"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Mamas FM T�rk� Radyosu"},
+    url: "https://mamasfm.com:9984/"
+  },
+  {
+    metaData:{title: "RADIO GRANICAR"},
+    url: "http://5.9.25.50:9308/stream"
+  },
+  {
+    metaData:{title: "Radio Sumadinac Sevdah"},
+    url: "https://media.srb-streaming.com:8044/stream"
+  },
+  {
+    metaData:{title: "Radiodegoudenhits"},
+    url: "http://stream.mfmstreaming.nl:1350/"
+  },
+  {
+    metaData:{title: "Sones de Guatemala Radio"},
+    url: "https://jm8n.net:8156/stream"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

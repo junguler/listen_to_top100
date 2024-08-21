@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Radio The Rocket 101.9 fm"},
+    url: "http://crystalout.surfernetwork.com:8001/KLXQ-FM_MP3"
+  },
+  {
+    metaData:{title: "KUAF 91.3FM"},
+    url: "http://war.str3am.com:7030/kuaf1"
+  },
+  {
+    metaData:{title: "Redneck Radio 101"},
+    url: "http://s21.myradiostream.com:10806/listen.mp3"
+  },
+  {
+    metaData:{title: "Trance Radio Arkansas"},
+    url: "http://www.ezspanishmedia.com/zeta.mp3"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

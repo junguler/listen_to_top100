@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "nederpop"},
+    url: "http://nederpop.stream.laut.fm/nederpop"
+  },
+  {
+    metaData:{title: "weltweit"},
+    url: "http://weltweit.stream.laut.fm/weltweit"
+  },
+  {
+    metaData:{title: "studionl"},
+    url: "http://studionl.stream.laut.fm/studionl"
+  },
+  {
+    metaData:{title: "radio krummhoern"},
+    url: "http://radio-krummhoern.stream.laut.fm/radio-krummhoern"
+  },
+  {
+    metaData:{title: "radiomelodysf"},
+    url: "http://radiomelodysf.stream.laut.fm/radiomelodysf"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

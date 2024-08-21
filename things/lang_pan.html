@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Akhand Path Radio"},
+    url: "http://radio.punjabrocks.com:9968"
+  },
+  {
+    metaData:{title: "Desi Radio 1602 AM"},
+    url: "http://desi.canstream.co.uk:8001/live.mp3"
+  },
+  {
+    metaData:{title: "Punjab Rocks"},
+    url: "http://radio.punjabrocks.com:9988"
+  },
+  {
+    metaData:{title: "Sanjhi Awaaz Radio"},
+    url: "http://streamer.radio.co/sdea88e226/listen"
+  },
+  {
+    metaData:{title: "Sikh Katha Radio"},
+    url: "http://radio.punjabrocks.com:9978"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

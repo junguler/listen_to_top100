@@ -1,0 +1,23 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "radiopaf"},
+    url: "http://radiopaf.stream.laut.fm/radiopaf"
+  },
+  {
+    metaData:{title: "craftradio"},
+    url: "http://craftradio.stream.laut.fm/craftradio"
+  },
+  {
+    metaData:{title: "mino4br"},
+    url: "http://mino4br.stream.laut.fm/mino4br"
+  },
+  {
+    metaData:{title: "antismusicmix"},
+    url: "http://antismusicmix.stream.laut.fm/antismusicmix"
+  },
+  {
+    metaData:{title: "eaglefm"},
+    url: "http://eaglefm.stream.laut.fm/eaglefm"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

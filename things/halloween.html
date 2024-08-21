@@ -1,0 +1,27 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Horror Theater"},
+    url: "https://ec4.yesstreaming.net:1235/stream"
+  },
+  {
+    metaData:{title: "Solo Dios Radio"},
+    url: "http://stream2.305stream.com:8610/stream/"
+  },
+  {
+    metaData:{title: "Halloweenradio.net - Kids"},
+    url: "http://radio1.streamserver.link:8030/hrk-mp3"
+  },
+  {
+    metaData:{title: "Vagalume.FM - Halloween"},
+    url: "https://stream.vagalume.fm/hls/1477074894405450/aac.m3u8"
+  },
+  {
+    metaData:{title: "Halloween FM"},
+    url: "https://christmasfm.cdnstream1.com/2552_64.aac"
+  },
+  {
+    metaData:{title: "AMAZING TALES of Old Time Radio"},
+    url: "https://riradtke.radioca.st/stream"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

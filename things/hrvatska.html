@@ -1,0 +1,31 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Narodni Radio Goga"},
+    url: "http://cmr-hosting.com:8440/stream"
+  },
+  {
+    metaData:{title: "RADIO STREAM 37"},
+    url: "http://s28.myradiostream.com:23774/listen.mp3"
+  },
+  {
+    metaData:{title: "RADIO SRCE ZAGORJA"},
+    url: "http://shaincast.caster.fm:30175/listen.mp3?authn4b24db4fbc5e04d47d2734752dee2677"
+  },
+  {
+    metaData:{title: "ARTPOP Rijeka"},
+    url: "http://radioartpop.listen2myradio.com"
+  },
+  {
+    metaData:{title: "Radio Koprivnica"},
+    url: "http://194.152.206.205:8000/"
+  },
+  {
+    metaData:{title: "Radio Narodni"},
+    url: "http://live.narodni.hr:8063/"
+  },
+  {
+    metaData:{title: "Radio Martin"},
+    url: "http://genf196.server4you.de:8585/"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

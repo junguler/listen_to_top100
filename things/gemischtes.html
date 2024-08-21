@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "laroca"},
+    url: "http://laroca.stream.laut.fm/laroca"
+  },
+  {
+    metaData:{title: "fbsr"},
+    url: "http://fbsr.stream.laut.fm/fbsr"
+  },
+  {
+    metaData:{title: "radio allerlei"},
+    url: "http://radio-allerlei.stream.laut.fm/radio-allerlei"
+  },
+  {
+    metaData:{title: "radiospass"},
+    url: "http://radiospass.stream.laut.fm/radiospass"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

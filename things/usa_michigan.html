@@ -1,0 +1,39 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "Radio WQOS"},
+    url: "http://audio.birach.com:9010/stream.nsv"
+  },
+  {
+    metaData:{title: "Radio WKAR"},
+    url: "http://mozart.wkar.msu.edu/wkar-am-mp3"
+  },
+  {
+    metaData:{title: "WMUK 102.1 FM"},
+    url: "http://ice2.wmuk.org:8000/mp31"
+  },
+  {
+    metaData:{title: "Radio WNZK"},
+    url: "http://wnzk.birach.com:9000/stream.nsv"
+  },
+  {
+    metaData:{title: "WKJC"},
+    url: "http://ice23.securenetsystems.net/WKJCM"
+  },
+  {
+    metaData:{title: "WRJR Real Jazz Radio"},
+    url: "https://s3.radio.co/s851f21496/listen"
+  },
+  {
+    metaData:{title: "Rogue-Rock-Radio"},
+    url: "https://maggie.torontocast.com:9014"
+  },
+  {
+    metaData:{title: "Govern America Radio"},
+    url: "http://stream.governamerica.com:4030/index.html?sid=1"
+  },
+  {
+    metaData:{title: "WRJR JAMZ"},
+    url: "https://streaming.radio.co/s99b76d4bb/listen"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>

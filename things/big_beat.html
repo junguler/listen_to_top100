@@ -1,0 +1,19 @@
+<!doctype html><meta charset=utf-8><div id=app style=height:100vh></div><script src=webamp.bundle.min.js></script><script>const Webamp=window.Webamp,webamp=new Webamp({__initialWindowLayout:{main:{position:{x:0,y:0}},playlist:{position:{x:0,y:116},size:[0,2]}},initialTracks:[
+  {
+    metaData:{title: "MEGATON CAFE RADIO"},
+    url: "http://us2.internet-radio.com:8443/stream"
+  },
+  {
+    metaData:{title: "The UK 1940s Radio Station Server 2 - 1920s -1930s 1940s"},
+    url: "http://solid2.streamupsolutions.com:24929/stream"
+  },
+  {
+    metaData:{title: "Afro Beats 2 The World"},
+    url: "http://64.20.39.8:8351/stream"
+  },
+  {
+    metaData:{title: "DR P6 Beat"},
+    url: "http://live-icy.gss.dr.dk:8000/A/A29H.mp3"
+  }
+]
+});webamp.store.dispatch({type:"CLOSE_WINDOW",windowId:"equalizer"}),webamp.renderWhenReady(document.getElementById("app"))</script>
